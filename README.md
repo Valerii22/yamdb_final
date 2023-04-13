@@ -1,3 +1,4 @@
+![yamdb_final status](https://github.com/Valerii22/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
