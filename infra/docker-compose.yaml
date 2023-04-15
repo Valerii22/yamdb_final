@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: valeri1/yamdb_final
+    image: valeri1/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
