@@ -39,14 +39,6 @@ This is api service, where you can get or create reviews, ratings, comments on t
   git clone ...
   ```
 
-2. Make and activate virtual environment
-  ```sh
-  python -m venv venv
-  ```
-  ```sh
-  source venv/Scripts/activate
-  ```
-
 2. Create and open ```.env``` file:
 ```sh
 cd infra
@@ -78,8 +70,6 @@ docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 
 docker-compose exec web python manage.py collectstatic --no-input 
-
-docker-compose exec web python manage.py loaddata fixtures.json
 ```
 
 ## Usage
@@ -191,6 +181,8 @@ More data and examples available on ```127.0.0.1:8000/redoc/```
 * [SimpleJWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html)
 * [Pytest](https://docs.pytest.org/en/7.2.x/)
 
+ ## Link to see project
+  * http://158.160.12.159/
 
 <!-- DEVELOPED BY -->
 ## Developed by
